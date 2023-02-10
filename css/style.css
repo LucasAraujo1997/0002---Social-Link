@@ -1,0 +1,27 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+body{
+    height: 100vh;
+    min-width: 100vw;
+    background-color: var(--body-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+}
+#imgPerfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
